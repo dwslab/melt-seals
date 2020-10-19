@@ -3,7 +3,7 @@
     <groupId>de.uni-mannheim.informatik.dws.melt</groupId>
     <artifactId>seals-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.1.1</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -45,7 +45,7 @@
         <connection>scm:git:git://github.com/dwslab/melt-seals.git</connection>
         <developerConnection>scm:git:git@github.com:dwslab/melt-seals.git</developerConnection>
         <url>https://github.com/dwslab/melt-seals</url>
-        <tag>HEAD</tag>
+        <tag>seals-parent-1.1.1</tag>
     </scm>
 
     <distributionManagement>
