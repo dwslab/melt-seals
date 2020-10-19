@@ -1,0 +1,84 @@
+# Maven 
+target/
+
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# eclipse project file
+.settings/
+.classpath
+.project
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# melt specific / benchmark
+benchmarkCache/
+trackCache/
+results/
+sealsResults/
+melt-resources/
+
+current_result.rdf
+result.rdf
+
+dashboard.html
+
+#java
+*.log
+
+#bin folder
+bin/
+
+#Logging
+log.txt
+matching-eval/log.txt
+log4j.properties
+
+# Python
+playground.py
+
+# datasets
+**/datasets/*.xml
+
+#latex
+*.aux
+*.bbl
+*.blg
+*.synctex.gz
+*.out
+*.dvi
+paper/*.pdf
+
+#include example results
+!examples/analyzingMatcherSimilarity/results*
+
+#exclude playgrounds
+Spielewiese.java
+Playground.java
+Playground1.java
+
+# mac specific
+.DS_Store
+
+# log files
+*.log
+
+# documentation: avoid adding temporal file versions when opened in libre office
+documentation/.~lock.melt_ml_architecture_image.odp#
+python_command.txt
+index.index.0
+
+# include travis file
+!.travis.yml
+!.github/workflows/maven.yml
+!.gitignore
