@@ -24,7 +24,6 @@ nb-configuration.xml
 # melt specific / benchmark
 benchmarkCache/
 trackCache/
-results/
 sealsResults/
 melt-resources/
 
